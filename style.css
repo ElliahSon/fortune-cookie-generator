@@ -1,3 +1,36 @@
 body {
   background-color: salmon;
 }
+
+#clickbait {
+  width: 100px;
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-left: 40%;
+}
+
+#fortune-cookie-text {
+  background-color: white;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+#previous-fortunes {
+  background-color: white;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 6%;
+}
+
+
+
