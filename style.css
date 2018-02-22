@@ -4,7 +4,7 @@ body {
 
 #clickbait {
   width: 100px;
-  background-color: gray;
+  background-color: none;
   border: none;
   color: white;
   padding: 6px 6px;
@@ -14,7 +14,7 @@ body {
   font-size: 20px;
   cursor: pointer;
   border-radius: 16px;
-  margin-left: 40%;
+  margin-left: 42%;
 }
 
 #fortune-cookie-text {
@@ -22,6 +22,7 @@ body {
   border: 2px solid white;
   padding: 10px;
   border-radius: 25px;
+
 }
 
 #previous-fortunes {
@@ -30,6 +31,7 @@ body {
   padding: 10px;
   border-radius: 25px;
   margin-top: 6%;
+  
 }
 
 

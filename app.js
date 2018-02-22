@@ -9,3 +9,9 @@ var fortunesList = [
   "The next fortune will feel more rewarding after this",
 ];
 
+var rand = fortunesList[Math.floor(6 * Math.random())];
+
+function generateFortuneCookie () {
+  for (i = 0, i , i++)
+
+}
