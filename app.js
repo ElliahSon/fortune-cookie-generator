@@ -1,4 +1,3 @@
-document.getElementById("fortune-cookie-text").innerHTML 
 
 var fortunesList = [
   "You'll find a $100 bill on the sidewalk.",
@@ -9,9 +8,23 @@ var fortunesList = [
   "The next fortune will feel more rewarding after this",
 ];
 
-var rand = fortunesList[Math.floor(6 * Math.random())];
+
 
 function generateFortuneCookie () {
-  for (i = 0, i , i++)
+  rand = Math.floor((Math.random() * fortunesList.length)) ;
 
+  document.getElementById("fortune-cookie-text").innerHTML = fortunesList[rand];
+
+  var list = document.createElement("LI");
+
+  var text = document.createTextNode("fortuneList[rand]");
+
+  list.appendChild(text);
+
+  document.getElementById("previous-fortunes").appendChild(list);
+  
+  var prev = document.getElementById("previous-fortunes");
+  
+  prev.insertBefore(List, prev.childNodes[0]);
+  
 }
